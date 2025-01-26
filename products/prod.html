@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylePR.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <a href="C:\Users\ACER\Desktop\VScode\main\home\home.html" class="logo">SHAMS</a>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a><img src="assets/img/close.svg"></a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\portfolio\port.html">Portfolio</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\products\prod.html">Products</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\contact\contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <!-- <li>
+                    <a href="#">Products</a>
+                    <ul class="dropdown">
+                        <li><a class="g" href="#">Catalogues</a></li>
+                        <li><a class="g" href="#">Photography</a></li>
+                        <li><a class="g" href="#">Videography</a></li>
+                    </ul>
+                </li> -->
+                <li class="navitem"><a href="C:\Users\ACER\Desktop\VScode\main\portfolio\port.html">Portfolio</a></li>
+                <li class="navitem"><a href="C:\Users\ACER\Desktop\VScode\main\products\prod.html">Products</a></li>
+                <li class="navitem"><a href="C:\Users\ACER\Desktop\VScode\main\contact\contact.html">Contact</a></li>
+                <li><button class="menu" onclick=showSidebar()><img width="30px" src="assets/img/menu1.svg"></button>
+                </li>
+            </ul>
+        </header>
+        <div class="container">
+            <h2 style="padding-top: 20px;">
+                <center>Services Offered</center>
+            </h2>
+            <div class="img-container">
+                <div class="card__container">
+                    <article class="card__article">
+                        <img src="assets/img/ctg.jpg" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <!-- <span class="card__description">Vancouver Mountains, Canada</span> -->
+                            <h2 class="card__title">CATALOGUES</h2>
+                            <h4 class="pricing">Starts at 200SAR</h4>
+                            <!-- <a href="#" class="card__button">Read More</a> -->
+                        </div>
+                    </article>
+
+                    <article class="card__article">
+                        <img src="assets/img/landscape-2.png" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <!-- <span class="card__description">Poon Hill, Nepal</span> -->
+                            <h2 class="card__title">PHOTOGRAPHY</h2>
+                            <h4 class="pricing">Starts at 200SAR</h4>
+                            <!-- <a href="#" class="card__button">Read More</a> -->
+                        </div>
+                    </article>
+
+                    <article class="card__article">
+                        <img src="assets/img/landscape-3.png" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <!-- <span class="card__description">Bojcin Forest, Serbia</span> -->
+                            <h2 class="card__title">VIDEOGRAPHY</h2>
+                            <h4 class="pricing">Starts at 200SAR</h4>
+                            <!-- <a href="#" class="card__button">Read More</a> -->
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+        </div>
+        <div class="bt1">
+            <a href="C:\Users\ACER\Desktop\VScode\main\portfolio\port.html" class="bt2">View My Works</a>
+            <a href="C:\Users\ACER\Desktop\VScode\main\contact\contact.html" class="bt2">Make an enquiry</a>
+        </div>
+        <footer>
+            <ul class="foot">
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\home\home.html">Home</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\portfolio\port.html">Portfolio</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\products\prod.html">Products</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\contact\contact.html">Contact</a></li>
+            </ul>
+            <div class="line1"></div>
+            <center class="lab">Links</center>
+            <ul class="footsocial">
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <center>©2024 SHAMS</center>
+        </footer>
+    </div>
+</body>
+
+<script>
+    function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+
+
+</html>
