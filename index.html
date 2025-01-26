@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <a href="C:\Users\ACER\Desktop\VScode\main\home\index.html" class="logo">SHAMS</a>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a><img src="assets/img/close.svg"></a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\portfolio\port.html">Portfolio</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\products\prod.html">Products</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\contact\contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <!-- <li>
+                    <a href="#">Products</a>
+                    <ul class="dropdown">
+                        <li><a class="g" href="#">Catalogues</a></li>
+                        <li><a class="g" href="#">Photography</a></li>
+                        <li><a class="g" href="#">Videography</a></li>
+                    </ul>
+                </li> -->
+                <li class="navitem"><a href="C:\Users\ACER\Desktop\VScode\main\portfolio\port.html">Portfolio</a></li>
+                <li class="navitem"><a href="C:\Users\ACER\Desktop\VScode\main\products\prod.html">Products</a></li>
+                <li class="navitem"><a href="C:\Users\ACER\Desktop\VScode\main\contact\contact.html">Contact</a></li>
+                <li><button class="menu" onclick=showSidebar()><img width="30px" src="assets/img/menu1.svg"></button>
+                </li>
+            </ul>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <h2 style="padding-block: 30px;">
+                    <center>Hey, I am Shemeesh Salim!</center>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu elit turpis. Proin lacinia ex a
+                    massa fermentum, vel aliquet leo ullamcorper. Nunc ultricies, leo nec aliquet ultricies, nibh urna
+                    scelerisque elit, non bibendum est odio non purus. Proin augue nibh, luctus nec neque vitae, luctus
+                    faucibus justo. Integer consequat elementum ligula. Aliquam sagittis eu ante a imperdiet. Aenean
+                    condimentum accumsan augue, in lacinia nisl semper quis. Nam at odio tempor, accumsan felis et,
+                    varius tellus. Curabitur id justo luctus, sollicitudin urna a, aliquet enim. In turpis eros,
+                    ultrices eget faucibus vel, mattis sit amet risus. Fusce iaculis quam vitae dui maximus, vitae
+                    iaculis urna euismod. Cras sit amet sagittis nisi. Sed vel felis dui. Ut id volutpat nunc, in
+                    blandit urna. Pellentesque dui sapien, auctor eu egestas ac, dignissim sit amet est. Sed id massa
+                    vitae sem euismod tempor sit amet sit amet nisl.
+
+                    Donec commodo non dui ut cursus. Fusce vel neque vel augue varius ultrices. Ut malesuada scelerisque
+                    nunc, in ultrices erat facilisis vitae. Quisque tempor, elit eget iaculis maximus, libero nisl
+                    pellentesque ante, eu tincidunt nibh nisi quis massa. Integer suscipit imperdiet nibh quis semper.
+                    Etiam maximus orci in aliquam dignissim. Donec dapibus ornare nibh, vitae egestas sem blandit eget.
+                    In hac habitasse platea dictumst.
+
+                    Phasellus lacinia urna sit amet tempus vestibulum. Nulla feugiat orci at rutrum sollicitudin.
+                    Pellentesque vitae eros mauris. Donec eu nulla consectetur, finibus turpis quis, pellentesque nisl.
+                    Mauris pulvinar, nibh non luctus fringilla, erat nibh tincidunt nunc, nec aliquam sem dui non arcu.
+                    Curabitur non mauris et libero interdum porttitor eu auctor velit. Donec sed molestie eros. Duis
+                    maximus est enim, at elementum urna placerat eget. Donec mollis lacus eu dui rutrum, non laoreet
+                    nunc porttitor. Mauris sit amet elit vel tortor vehicula pretium sed eu mauris. Phasellus dui
+                    lectus, commodo a metus ac, dignissim iaculis sem. Donec odio enim, volutpat rhoncus pharetra sit
+                    amet, facilisis eu massa. Sed vel pretium nunc.</p>
+                    <section id="products"></section>
+                
+            </section>
+                <div class="line2"></div>
+                <h2 style="padding-top: 20px;">
+                    <center>Our Services</center>
+                </h2>
+                <div class="img-container">
+                    <div class="card__container">
+                        <article class="card__article">
+                            <img src="assets/img/ctg.jpg" alt="image" class="card__img">
+
+                            <div class="card__data">
+                                <!-- <span class="card__description">Vancouver Mountains, Canada</span> -->
+                                <h2 class="card__title">Graphic Des</h2>
+                                <a href="#" class="card__button">Works</a>
+                            </div>
+                        </article>
+
+                        <article class="card__article">
+                            <img src="assets/img/landscape-2.png" alt="image" class="card__img">
+
+                            <div class="card__data">
+                                <!-- <span class="card__description">Poon Hill, Nepal</span> -->
+                                <h2 class="card__title">Phot</h2>
+                                <a href="#" class="card__button">Works</a>
+                            </div>
+                        </article>
+
+                        <article class="card__article">
+                            <img src="assets/img/landscape-3.png" alt="image" class="card__img">
+
+                            <div class="card__data">
+                                <!-- <span class="card__description">Bojcin Forest, Serbia</span> -->
+                                <h2 class="card__title">Video</h2>
+                                <a href="#" class="card__button">Works</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="bt1">
+                    <a href="C:\Users\ACER\Desktop\VScode\main\portfolio\port.html" class="bt2">View More Works</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul class="foot">
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\home\index.html">Home</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\portfolio\port.html">Portfolio</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\products\products.html">Products</a></li>
+                <li><a href="C:\Users\ACER\Desktop\VScode\main\contact\contact.html">Contact</a></li>
+            </ul>
+            <div class="line1"></div>
+            <center class="lab">Links</center>
+            <ul class="footsocial">
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <center>©2024 SHAMS</center>
+        </footer>
+    </div>
+</body>
+
+<script>
+    function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+
+
+</html>
